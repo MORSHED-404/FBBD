@@ -16,6 +16,6 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from fbbd import MR_morshed
+        from FBBD import MR_morshed
  
         MR_morshed()
