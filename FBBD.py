@@ -16,6 +16,6 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from MRBD import RANDOM
+        from fbbd import MR_morshed
  
-        RANDOM()
+        MR_morshed()
